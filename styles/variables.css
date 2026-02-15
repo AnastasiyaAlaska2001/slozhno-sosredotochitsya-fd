@@ -1,0 +1,21 @@
+:root {
+  --main-font: "IBM Plex mono";
+  --heading-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --highlight-color: #ff0070;
+  --outline-color: #ff0070;
+  --link-border: #f1b2ce;
+  --nav-color: #ff0070;
+  --heading-color: #ff0070;
+  --rec-indicator: #ff0070;
+  --dark-bg-text: #000028;
+  --alt-bg-color: #000028;
+  --shadow-text-color: #db00ff;
+  --shadow-text-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --shadow-text-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --base-text: #f1b2ce;
+  --bg-image: url(../images/cover-image-dark.png);
+  --spacing: 20px;
+  --title-color: #ff0070;
+  --button-hover: #ff007066;
+  --bracket-color: #ff0070;
+}

@@ -1,0 +1,27 @@
+.footer {
+  display: grid;
+  min-height: 668px;
+}
+
+.footer__text {
+  align-self: center;
+  padding-bottom: 15px;
+  text-shadow: 2px 2px 0 var(--highlight-color);
+  justify-self: center;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    min-height: 1000px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    min-height: 750px;
+  }
+
+  .visual-container-footer::after {
+    bottom: 25px;
+  }
+}

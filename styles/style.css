@@ -1,0 +1,71 @@
+.page {
+  background-image: var(--bg-image);
+  background-color: var(--alt-bg-color);
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  color: var(--base-text);
+  padding: 10px;
+  font-family: var(--main-font), sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.shadow-text {
+  font-weight: 700;
+  font-size: var(--shadow-text-size-mobile);
+  line-height: 82.5%;
+  color: var(--shadow-text-color);
+}
+
+.background_style {
+  color: var(--dark-bg-text);
+  background-color: var(--highlight-color);
+}
+
+.subheading {
+  line-height: 130%;
+  color: var(--heading-color);
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--highlight-color);
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--link-border);
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--link-border);
+}
+
+.text_style {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.text_style_bold {
+  font-weight: 700;
+}
+
+.paragraph_text {
+  margin: 10px 0 20px;
+  line-height: 130%;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 20px; /* Если я уберу отступы вверху и внизу padding: 0 20px 0 20px, то верстка navbar не совпадает с фигмой */
+  }
+
+  .shadow-text {
+    font-size: var(--heading-font-size-desktop);
+  }
+}
