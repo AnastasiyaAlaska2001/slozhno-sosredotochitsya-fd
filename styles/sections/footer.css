@@ -15,6 +15,10 @@
   .footer {
     min-height: 1000px;
   }
+
+  .visual-container-footer::after {
+    bottom: 15px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -23,6 +27,6 @@
   }
 
   .visual-container-footer::after {
-    bottom: 25px;
+    bottom: 15px;
   }
 }
