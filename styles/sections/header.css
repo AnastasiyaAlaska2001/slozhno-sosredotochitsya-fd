@@ -1,7 +1,8 @@
 .header {
   display: grid;
-  grid-template-rows: auto max-content 250px;
+  grid-template-rows: auto max-content auto;
   align-items: center;
+  height: 100vh;
   min-height: 668px;
   margin-bottom: -10px;
 }
@@ -69,7 +70,7 @@
   margin: 0;
   padding-right: 50px;
   max-inline-size: 364px;
-  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .rec-icon::after {
@@ -110,11 +111,19 @@
 
 @media (min-width: 768px) {
   .header {
-    grid-template-rows: 430px max-content 440px;
+    min-height: 990px;
+  }
+
+  .header__text {
+    margin-bottom: 10px;
+  }
+
+  .header__theme-menu {
+    margin-bottom: 10px;
   }
 
   .header__title {
-    margin: 20px 0 0 -20px;
+    margin: 10px 0 -10px -20px;
   }
 
   .visual-container::after {
@@ -124,8 +133,8 @@
 
 @media (min-width: 1024px) {
   .header {
-    grid-template-rows: auto 230px 180px;
-    margin-bottom: 140px;
+    min-height: 730px;
+    margin-bottom: 10px;
   }
 
   .visual-container::after {

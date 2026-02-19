@@ -1,6 +1,7 @@
 .footer {
   display: grid;
   min-height: 668px;
+  height: 100vh;
 }
 
 .footer__text {
@@ -18,7 +19,7 @@
 
 @media (min-width: 1024px) {
   .footer {
-    min-height: 750px;
+    min-height: 740px;
   }
 
   .visual-container-footer::after {
